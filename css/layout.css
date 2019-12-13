@@ -10,8 +10,7 @@
 
 /*Nav*/
 header{
-    display:flex;
-    justify-content: space-between;
+    text-align: right;
 }
 
 header img{
@@ -43,6 +42,7 @@ footer{
     padding:30px;
     font-size: 25px;
     text-align:center;
+    margin-bottom: 50px;
 }
 
 footer a{
@@ -78,7 +78,8 @@ footer a{
 /*Movies*/
 .container{
     margin:100px auto;
-    max-width:1000px;
+    /*max-width:1000px;*/
+    width:80%
 }
 
 .banner{
