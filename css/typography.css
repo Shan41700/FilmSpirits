@@ -1,0 +1,47 @@
+:root{
+    --display-font:'Permanent Marker', cursive;
+    --title-font:'Lacquer', sans-serif;
+    --text-font:'Karma', serif;
+}
+
+
+h1{
+    font-family:var(--display-font);
+    letter-spacing:2.5px;
+}
+
+/*Navigation*/
+nav a{
+    font-family:var(--title-font);
+    text-decoration:underline;
+}
+
+footer a{
+    font-family:var(--title-font);
+    text-decoration-line: underline;
+}
+
+
+/*Movie Cards*/
+.movies h3{font-family:var(--title-font);}
+.movies p{font-family:var(--text-font);}
+
+
+
+
+/*Quiz*/
+.questions p{font-family:var(--title-font);}
+.questions button{
+    font-family:var(--text-font);
+    font-size:15px;
+}
+
+.quizAnswer h2{font-family: var(--display-font);}
+.quizAnswer p{font-family:var(--text-font);}
+
+
+
+
+
+
+/*  'Gloria Hallelujah', cursive;  */
