@@ -1,8 +1,5 @@
-        #q1 {
-            display: block;
-        }
 
-/*Ipad Pro*/
+Ipad Pro
 @media screen and (max-width:1050px){
     .container{max-width:900px;}
     
@@ -23,19 +20,19 @@
 }
 
 
+
 /*IphoneX*/
 @media screen and (max-width:400px){
-    .questions{display:none;}
     
     #quiz{height:calc(100vh - 50px);}
-    #q1{display:none;}
+   
+    .container{margin:20px;}
     
     .card{
-    min-width:700px;
-    min-height:500px;
-    margin:20px 0px;
-    padding-right:50px;
-}
+        min-width:300px;
+        padding-right:25px;
+    }
+    
     
     
 }
